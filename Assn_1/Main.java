@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// In this code we are exploring the basics of Java by building a Calculator class and a Main class which is used to run the functions.
+
 class Calculator {
     private double memory;
 
