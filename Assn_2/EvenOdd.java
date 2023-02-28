@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// In this assignment we have collected a list of numbers from the user and segregate it into two arrays. One for odd numbers and one for even numbers.
+
 public class EvenOdd {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
