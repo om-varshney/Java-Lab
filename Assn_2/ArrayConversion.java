@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.util.*;
 
+// In this program we are converting a user inputed array to ArrayList in Java
+
 public class ArrayConversion {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
