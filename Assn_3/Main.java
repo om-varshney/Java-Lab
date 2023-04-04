@@ -1,5 +1,16 @@
 import java.util.*;
 
+/* 
+For this assignment we had to implement the following
+
+Create a student class with the capacity to store information like prn, name, DoB, marks etc.
+Create an array of objects of Student class and perform operations like: 
+a. Add students, 
+b. Display, 
+c. Search (by prn, by name, by position), 
+d. Update/Edit
+e. Delete.
+*/
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -110,5 +121,6 @@ public class Main {
                     System.out.println("Invalid choice.");
             }
         } while (choice != 8);
+        sc.close();
     }
 }

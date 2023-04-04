@@ -1,3 +1,7 @@
+/*
+This is the student class that implements all getter, setter methods to deal with each student object.
+*/
+
 public class Student {
     private String prn;
     private String name;
