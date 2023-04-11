@@ -13,7 +13,7 @@ public class ShapeTestDrive {
         s.calculatePerimeter();
         System.out.println(s);
         System.out.println("Triangle: ");
-        Triangle t = new Triangle(10, 20, 30);
+        Triangle t = new Triangle(10, 22, 30);
         t.calculateArea();
         t.calculatePerimeter();
         System.out.println(t);
