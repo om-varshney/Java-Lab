@@ -1,6 +1,6 @@
 package Assn_5;
 
-public class Main {
+public class ShapeTestDrive {
     public static void main(String[] args) {
         System.out.println("Circle: ");
         Circle c = new Circle(10);
