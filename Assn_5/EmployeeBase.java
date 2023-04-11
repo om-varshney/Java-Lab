@@ -1,5 +1,10 @@
 package Assn_5;
 
+/* 
+This is the abstract class which represents all the properties of the employee. It acts as the parent
+class to NormalEmployee and BonusEmployee.
+*/
+
 public abstract class EmployeeBase {
     public String name;
     public int EID;

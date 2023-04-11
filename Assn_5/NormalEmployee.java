@@ -1,5 +1,10 @@
 package Assn_5;
 
+/* 
+This is the normal employee class which implements all abstract methods from the EmployeeBase.
+It acts as parent to BonusEmployee.
+*/
+
 public class NormalEmployee extends EmployeeBase{
     public NormalEmployee(
         String name, 

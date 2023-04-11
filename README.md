@@ -29,3 +29,10 @@ For this assignment we were supposed to implement a simulation of a deck of card
 1. We used java vectors to implement the deck.
 2. We created card class which has access to its suite and card value.
 3. The deck implemented functions such as shuffle, random card dealing, finding a card, sorting the deck and others.
+
+## Assignment 5
+
+This assignment had two parts
+
+1. We implmemnted a shape interface and practiced interface implementation and abstraction.
+2. We implemented a employee salary report generator while implementing abstract classes and inheritance.

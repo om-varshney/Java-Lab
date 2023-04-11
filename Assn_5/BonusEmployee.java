@@ -1,5 +1,9 @@
 package Assn_5;
 
+/* 
+This is the bonus employee who gets a 69% bonus on the basic Wage.
+*/
+
 public class BonusEmployee extends NormalEmployee {
     public BonusEmployee(
         String name, 
