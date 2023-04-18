@@ -11,7 +11,7 @@ c. Search (by prn, by name, by position),
 d. Update/Edit
 e. Delete.
 */
-public class Main {
+public class StudentTestDrive {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int choice, count = 0;
@@ -31,7 +31,7 @@ public class Main {
             choice = sc.nextInt();
 
             switch (choice) {
-                case 1:
+                case 1 -> {
                     System.out.print("Enter PRN: ");
                     String prn = sc.next();
                     System.out.print("Enter Name: ");
@@ -42,14 +42,14 @@ public class Main {
                     int marks = sc.nextInt();
                     students[count] = new Student(prn, name, dob, marks);
                     count++;
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     for (int i = 0; i < count; i++) {
                         System.out.println("Student " + (i + 1) + ":");
                         System.out.println(students[i]);
                     }
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     System.out.print("Enter PRN to search: ");
                     String prnSearch = sc.next();
                     for (int i = 0; i < count; i++) {
@@ -59,8 +59,8 @@ public class Main {
                             break;
                         }
                     }
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     System.out.print("Enter Name to search: ");
                     String nameSearch = sc.next();
                     for (int i = 0; i < count; i++) {
@@ -70,8 +70,8 @@ public class Main {
                             break;
                         }
                     }
-                    break;
-                case 5:
+                }
+                case 5 -> {
                     System.out.print("Enter position to search: ");
                     int position = sc.nextInt();
                     if (position >= 1 && position <= count) {
@@ -80,8 +80,8 @@ public class Main {
                     } else {
                         System.out.println("Invalid position.");
                     }
-                    break;
-                case 6:
+                }
+                case 6 -> {
                     System.out.print("Enter position to update: ");
                     int updatePosition = sc.nextInt();
                     if (updatePosition >= 1 && updatePosition <= count) {
@@ -100,8 +100,8 @@ public class Main {
                     } else {
                         System.out.println("Invalid position.");
                     }
-                    break;
-                case 7:
+                }
+                case 7 -> {
                     System.out.print("Enter position to delete: ");
                     int deletePosition = sc.nextInt();
                     if (deletePosition >= 1 && deletePosition <= count) {
@@ -113,12 +113,9 @@ public class Main {
                     } else {
                         System.out.println("Invalid position.");
                     }
-                    break;
-                case 8:
-                    System.out.println("Exiting...");
-                    break;
-                default:
-                    System.out.println("Invalid choice.");
+                }
+                case 8 -> System.out.println("Exiting...");
+                default -> System.out.println("Invalid choice.");
             }
         } while (choice != 8);
         sc.close();
