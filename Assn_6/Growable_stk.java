@@ -4,6 +4,9 @@ import Assn_6.pkg_Stack.Interface_STK;
 
 import java.util.Vector;
 
+/*
+Growable stack implemented through java vectors.
+*/
 public class Growable_stk implements Interface_STK {
     Vector<Integer> stack = new Vector<>();
 

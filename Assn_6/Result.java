@@ -1,5 +1,8 @@
 package Assn_6;
 
+/*
+This class extends Student and Implements Exam. It is able to register a student and display their marks.
+*/
 public class Result extends Student implements Exam {
     public Result(String name, int roll_no, int marks_1, int marks_2) {
         super(name, roll_no, marks_1, marks_2);

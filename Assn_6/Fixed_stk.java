@@ -2,6 +2,9 @@ package Assn_6;
 
 import Assn_6.pkg_Stack.Interface_STK;
 
+/*
+Represents a fixed stack of limit 5
+*/
 public class Fixed_stk implements Interface_STK {
     int[] stack = new int[MAX];
     int top = 0;

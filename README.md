@@ -11,8 +11,10 @@ For this assignment we have compeleted two parts.
 
 For this assignment we had 3 parts.
 
-1. For this part we had the user enter variable number of elements and then we segregated those elements into an even and an odd array
-2. For thia part we had the user enter the elements of an array and we detected the location of minimum distance of an element to its next. If there are multiple such instances we returned the first one.
+1. For this part we had the user enter variable number of elements and then we segregated those elements into an even
+   and an odd array
+2. For thia part we had the user enter the elements of an array and we detected the location of minimum distance of an
+   element to its next. If there are multiple such instances we returned the first one.
 3. For the the third part we converted a user inputed array to a list.
 
 ## Assignment 3
@@ -20,7 +22,8 @@ For this assignment we had 3 parts.
 For this assignment we had to implement the following
 
 1. Create a student class with the capacity to store information like prn, name, DoB, marks etc.
-2. Create an array of objects of Student class and perform operations like: Add students, Display, Search (by prn, by name, by position), Update/Edit and Delete.
+2. Create an array of objects of Student class and perform operations like: Add students, Display, Search (by prn, by
+   name, by position), Update/Edit and Delete.
 
 ## Assignment 4
 
@@ -34,5 +37,15 @@ For this assignment we were supposed to implement a simulation of a deck of card
 
 This assignment had two parts
 
-1. We implmemnted a shape interface and practiced interface implementation and abstraction.
+1. We implemented a shape interface and practiced interface implementation and abstraction.
 2. We implemented a employee salary report generator while implementing abstract classes and inheritance.
+
+## Assignment 6
+
+This assignment had two parts
+
+1. We implemented a stack interface to hold integers
+    1. It came in two flavors. Fixed stack and growable stack.
+    2. Learnt about inheritance through interfaces.
+2. We implemented a results display section for students.
+    1. Learnt about multiple inheritance through interfaces and classes.

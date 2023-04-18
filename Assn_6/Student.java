@@ -1,7 +1,8 @@
 package Assn_6;
 
-import java.util.Objects;
-
+/*
+This class is responsible for storing the details of students
+*/
 public class Student {
     private String name;
     private int roll_no;
@@ -61,10 +62,5 @@ public class Student {
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
         return roll_no == student.roll_no;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(roll_no);
     }
 }
