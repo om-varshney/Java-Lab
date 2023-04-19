@@ -1,18 +1,24 @@
 package Assn_4;
+
 import java.util.Collections;
 import java.util.Random;
 import java.util.Vector;
 
 public class Deck {
-    private Vector<Card> cards;
+    private final Vector<Card> cards;
 
     public Deck() {
         cards = new Vector<Card>();
-        for(int a=0; a<=3; a++) {
-            for(int b=0; b<=12; b++) {
-                cards.add(new Card(a,b));
+        for (int a = 0; a <= 3; a++) {
+            for (int b = 0; b <= 12; b++) {
+                cards.add(new Card(a, b));
             }
         }
+    }
+
+    public static boolean compareCard(Card firstCard, Card secondCard) {
+        // Returns true if first card is greater than second card. false otherwise.
+        return Card.greaterThan(firstCard, secondCard);
     }
 
     public Card drawRandomCard() {
@@ -24,11 +30,6 @@ public class Deck {
     public boolean sameCard(Card firstCard, Card secondCard) {
         // Returns true if cards are equal. false otherwise.
         return Card.equalTo(firstCard, secondCard);
-    }
-
-    public static boolean compareCard(Card firstCard, Card secondCard) {
-        // Returns true if first card is greater than second card. false otherwise.
-        return Card.greaterThan(firstCard, secondCard);
     }
 
     public void sortDeck() {
@@ -63,7 +64,6 @@ public class Deck {
     }
 
     public String toString() {
-        String result = "Cards remaining in deck: " + cards;
-        return result;
+        return "Cards remaining in deck: " + cards;
     }
 }

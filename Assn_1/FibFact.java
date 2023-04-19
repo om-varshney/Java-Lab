@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class FibFact {
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(System.in);
         int choice;
         while (true) {
@@ -22,8 +22,10 @@ public class FibFact {
                 fibonacciDataInputStream();
             } else if (choice == 4) {
                 nFibonacci(Integer.parseInt(args[0]));
+            } else if (choice == 0) {
+                break;
             }
-        }        
+        }
     }
 
     static void printMenu() {
@@ -61,30 +63,30 @@ public class FibFact {
     }
 
     static void fibonacciDataInputStream() throws IOException {
-            int num = 0;
-            System.out.println("Enter value of x: ");
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            num = Integer.parseInt(reader.readLine());
-            int a = 0, b = 1, c;
-            System.out.print(a + " " + b);
-            for(int i = 2; i < num; i++) {    
-                c=a + b;    
-                System.out.print(" " + c);    
-                a = b;    
-                b = c;    
-            }    
-            System.out.print("\n");
+        int num = 0;
+        System.out.println("Enter value of x: ");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        num = Integer.parseInt(reader.readLine());
+        int a = 0, b = 1, c;
+        System.out.print(a + " " + b);
+        for (int i = 2; i < num; i++) {
+            c = a + b;
+            System.out.print(" " + c);
+            a = b;
+            b = c;
+        }
+        System.out.print("\n");
     }
-    
+
     static void nFibonacci(int n) {
         int a = 0, b = 1, c;
         System.out.print(a + " " + b);
-        for(int i = 2; i < n; i++) {    
-            c=a + b;    
-            System.out.print(" " + c);    
-            a = b;    
-            b = c;    
-        }    
+        for (int i = 2; i < n; i++) {
+            c = a + b;
+            System.out.print(" " + c);
+            a = b;
+            b = c;
+        }
         System.out.print("\n");
     }
 }

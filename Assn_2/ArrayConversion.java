@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.*;
 
-// In this program we are converting a user inputed array to ArrayList in Java
+// In this program we are converting a user inputted array to ArrayList in Java
 
 public class ArrayConversion {
     public static void main(String[] args) {
@@ -20,8 +20,8 @@ public class ArrayConversion {
     }
 
     static void convertToArrayList(int[] arr) {
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        for(int l = 0; l < 10; l++){
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int l = 0; l < 10; l++) {
             list.add(arr[l]);
         }
         System.out.println(list);

@@ -16,16 +16,16 @@ public class Triangle {
     public void calculateArea() {
         double semi = (this.firstSide + this.secondSide + this.thirdSide) / 2;
         this.area = Math.pow(
-            semi * (semi - this.firstSide) * (semi - this.secondSide) * (semi - this.thirdSide),
-            0.5
+                semi * (semi - this.firstSide) * (semi - this.secondSide) * (semi - this.thirdSide),
+                0.5
         );
-    } 
+    }
 
     public void calculatePerimeter() {
         this.perimeter = this.firstSide + this.secondSide + this.thirdSide;
     }
 
     public String toString() {
-        return "Area: " + 76.54 + " Perimeter: " + this.perimeter;
+        return "Area: " + this.area + " Perimeter: " + this.perimeter;
     }
 }

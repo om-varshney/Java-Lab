@@ -122,62 +122,45 @@ public class Main {
             choice = input.next();
 
             switch (choice) {
-                case "1":
-                System.out.print("Enter two numbers: ");
-                a = input.nextDouble();
-                b = input.nextDouble();
-                System.out.println("Result: " + calc.add(a, b));
-                break;
-
-            case "2":
-                System.out.print("Enter two numbers: ");
-                a = input.nextDouble();
-                b = input.nextDouble();
-                System.out.println("Result: " + calc.sub(a, b));
-                break;
-
-            case "3":
-                System.out.print("Enter two numbers: ");
-                a = input.nextDouble();
-                b = input.nextDouble();
-                System.out.println("Result: " + calc.mul(a, b));
-                break;
-
-            case "4":
-                System.out.print("Enter two numbers: ");
-                a = input.nextDouble();
-                b = input.nextDouble();
-                System.out.println("Result: " + calc.div(a, b));
-                break;
-
-            case "5":
-                System.out.print("Enter a number: ");
-                a = input.nextDouble();
-                System.out.println("Result: " + calc.sqrt(a));
-                break;
-
-            case "6":
-                System.out.print("Enter two numbers: ");
-                a = input.nextDouble();
-                b = input.nextDouble();
-                System.out.println("Result: " + calc.power(a, b));
-                break;
-
-            case "7":
-                System.out.println("Result: " + calc.mean());
-                break;
-
-            case "8":
-                System.out.println("Result: " + calc.variance());
-                break;
-
-            case "0":
-                System.out.println("Program Terminating!");
-                break;
-
-            default:
-                System.out.println("Error: invalid choice");
-                break;
+                case "1" -> {
+                    System.out.print("Enter two numbers: ");
+                    a = input.nextDouble();
+                    b = input.nextDouble();
+                    System.out.println("Result: " + calc.add(a, b));
+                }
+                case "2" -> {
+                    System.out.print("Enter two numbers: ");
+                    a = input.nextDouble();
+                    b = input.nextDouble();
+                    System.out.println("Result: " + calc.sub(a, b));
+                }
+                case "3" -> {
+                    System.out.print("Enter two numbers: ");
+                    a = input.nextDouble();
+                    b = input.nextDouble();
+                    System.out.println("Result: " + calc.mul(a, b));
+                }
+                case "4" -> {
+                    System.out.print("Enter two numbers: ");
+                    a = input.nextDouble();
+                    b = input.nextDouble();
+                    System.out.println("Result: " + calc.div(a, b));
+                }
+                case "5" -> {
+                    System.out.print("Enter a number: ");
+                    a = input.nextDouble();
+                    System.out.println("Result: " + calc.sqrt(a));
+                }
+                case "6" -> {
+                    System.out.print("Enter two numbers: ");
+                    a = input.nextDouble();
+                    b = input.nextDouble();
+                    System.out.println("Result: " + calc.power(a, b));
+                }
+                case "7" -> System.out.println("Result: " + calc.mean());
+                case "8" -> System.out.println("Result: " + calc.variance());
+                case "0" -> System.out.println("Program Terminating!");
+                default -> System.out.println("Error: invalid choice");
             }
         } while (!choice.equals("0"));
     }
