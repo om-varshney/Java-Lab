@@ -17,13 +17,13 @@ public abstract class EmployeeBase {
     public int leavesTaken;
 
     public EmployeeBase(
-        String name, 
-        int EID, 
-        String designation, 
-        String department,
-        String DOJ,
-        double grossWage,
-        int leavesTaken
+            String name,
+            int EID,
+            String designation,
+            String department,
+            String DOJ,
+            double grossWage,
+            int leavesTaken
     ) {
         this.name = name;
         this.EID = EID;
@@ -33,7 +33,7 @@ public abstract class EmployeeBase {
         this.grossWage = grossWage;
         this.leavesTaken = leavesTaken;
     }
-    
+
     public abstract double basicWage();
 
     public abstract double EPF();
@@ -42,7 +42,7 @@ public abstract class EmployeeBase {
 
     public abstract double ESI();
 
-    public abstract double coveyanceAllowance();
+    public abstract double conveyanceAllowance();
 
     public abstract double medicalAllowance();
 
