@@ -49,3 +49,12 @@ This assignment had two parts
     2. Learnt about inheritance through interfaces.
 2. We implemented a results display section for students.
     1. Learnt about multiple inheritance through interfaces and classes.
+
+## Assignment 8
+
+This assignment had two parts
+
+1. We implemented the OutOfRangeException to ensure the validity of user input while calculating factorial
+2. We implemented the NOMATCHEXCP to ensure that country name is always India.
+
+We understood the process of building custom exceptions in Java. And about the features of the Java Exception class.

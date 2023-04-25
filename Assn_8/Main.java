@@ -1,3 +1,7 @@
+/*
+Main package demonstrates the working of OutOfRangeException and NOMATCHEXCP
+*/
+
 package Assn_8;
 
 import java.util.Scanner;
@@ -19,6 +23,7 @@ public class Main {
             }
             System.out.println("Calling from Main");
             System.out.println(calculateFactorial(5));
+            System.out.println("Country Exception Demo");
             Scanner sc = new Scanner(System.in);
             String country = sc.nextLine();
             testCountry(country);

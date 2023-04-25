@@ -1,3 +1,7 @@
+/*
+This exception ensures that the country name is always equal to India.
+*/
+
 package Assn_8;
 
 public class NOMATCHEXCP extends Exception {
