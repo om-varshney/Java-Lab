@@ -50,6 +50,20 @@ This assignment had two parts
 2. We implemented a results display section for students.
     1. Learnt about multiple inheritance through interfaces and classes.
 
+## Assignment 7
+
+In this assignment we have implemented rational numbers using object oriented programming
+we performed basic operations like-
+
+1. addition
+2. subtraction
+3. multiplication
+4. division
+5. absolute value
+6. float value
+
+we also used exception handling to handle bad input.
+
 ## Assignment 8
 
 This assignment had two parts
