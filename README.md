@@ -72,3 +72,13 @@ This assignment had two parts
 2. We implemented the NOMATCHEXCP to ensure that country name is always India.
 
 We understood the process of building custom exceptions in Java. And about the features of the Java Exception class.
+
+## Assignment 9
+
+In this assignment we demonstrated Database connectivity from Java to MySQL.
+We used JDBC drivers to accomplish this task.
+
+## Assignment 10
+
+In this assignment we demonstrated the usage of threads in Java by making use of various methods of the thread class.
+We used the extension method of threading, i.e. by extending the Thread class.
